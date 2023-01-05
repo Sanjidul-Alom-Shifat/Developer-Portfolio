@@ -135,3 +135,60 @@ main{
     font-size: 20px;
     text-align: center;
 }
+.what-i-do{
+    margin-top: 130px;
+}
+.section-title-i{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+.section-comment-i{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 900px;
+    margin-left: 118px;
+}
+.t-skills{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0,0,0 ,0.60);
+    border-radius: 6px;
+    padding: 30px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px; 
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: #181818;
+}
+.skill-comment{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+.summary{
+    margin-top: 130px;
+}
+.summary-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+    margin-bottom: 113px;
+}
+
+
+
+
