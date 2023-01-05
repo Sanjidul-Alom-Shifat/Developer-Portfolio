@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position:  right bottom, left ;
+}
+
+/* header and navigation bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 202px;
+    padding-top: 51px;
+}
+.nav-tittle{
+    font-weight: 800;
+    font-size: 45px;
+}
+.text-title{
+    color: #FD6E0A;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right:51px ;
+}
+.nav-button{
+    height: 64px;
+    font-weight: 700;
+    border: 1px solid #FD6E0A;
+    border-radius: 6px;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 18px 35px;
+}
+/* banner side */
+.banner-part{
+    margin: 0 202px;
+    display: flex;
+    align-items: center;
+}
+.banner-h3{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.banner-h1{
+    font-weight: 700;
+    font-size: 85px; 
+    color: #181818;  
+    margin-bottom: 20px; 
+}
+.banner-comment{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.banner-btn-download{
+    height: 64px;
+    font-weight: 700;
+    border: 1px solid #FD6E0A;
+    border-radius: 6px;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 18px 17px;
+}
+.banner-btn-contact{
+    height: 64px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    color: #FD6E0A;
+    background-color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 23px;
+    margin-left: 28px;
+}
+
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section */
+.about-section{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 156px;
+    text-align: center;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+.section-comment{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about-table{
+    display: flex;   
+    justify-content: space-around;
+}
+.about-info{
+    
+    justify-content: space-around;
+}
+.about-p1{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #757575;
+}
+.about-p2{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
